@@ -1,0 +1,21 @@
+Package: dhtdensity
+Title: Model density profiles using Bayesian hierarchical models
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Connor",
+           family = "Duffin",
+           role = c("aut", "cre"),
+           email = "connor.p.duffin@gmail.com")
+Description: This package models density measurements taken off the North-West
+    shelf of Australia through the use of Bayesian hierarchical models. The
+    model is a nonlinear hierarchical regression, with mean function given by a
+    double hyperbolic tangent (DHT) function.
+Depends: R (>= 3.6.1)
+Imports:
+    coda (>= 0.19.3),
+    acoda (>= 0.0.1),
+    futile.logger (>= 1.4.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
